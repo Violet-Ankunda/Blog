@@ -1,0 +1,17 @@
+.heading{ 
+    text-align: center;
+    display: flex;
+    justify-content:space-between ;
+    margin: 20px;
+}
+
+
+.circle {
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 25px;
+    background: black;
+  }
+
