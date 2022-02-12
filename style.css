@@ -1,17 +1,118 @@
-.heading{ 
-    text-align: center;
+.heading{
     display: flex;
-    justify-content:space-between ;
-    margin: 20px;
+    justify-content: space-between; /* ALigns horizontally*/
+    align-items: center; /*Aligns vertically*/
+    padding: 0px 200px 0px 100px;
+    border-bottom: 1px solid lightgray;
+}
+
+.section1{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-right: 10px;
+}
+
+.section1 h4{
+    padding-left: 20px;
+}
+
+.section3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+.section3 h4{
+    padding: 5px;
+}
+.section3 img{
+    padding: 10px;
+}
+
+.main-section{
+    display: grid;
+    grid-template-columns: 0.3fr 0.4fr 0.3fr;
+    padding-left: 40px;
+}
+
+.leftdiv ul{
+padding-left: 100px;
+padding-right: 5px;
+list-style-type: none;
+margin: 0%;
+font-size: medium;
+font-family: "Lucida Console", "Courier New", monospace;
+padding-top: 60px;
+line-height: 3.5; 
+}
+
+.middlediv {
+    padding-top: 40px;
+    padding-left: 10px;
+    border-right: 1px solid lightgray;
+    padding-right: 10px;
+
 }
 
 
+
+.middlediv p{
+    font-style: normal;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: left;
+    word-break: break-word;
+    
+}
+
+.middlediv img{
+    padding: 10px;
+}
+
+
+.lastdiv{
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-right: 90px;
+    font-family: "Courier New";
+    font-weight: lighter;
+    font-size: 10px;
+}
+
 .circle {
-    width: 10px;
-    height: 10px;
+    width: 7px;
+    height: 7px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-    border-radius: 25px;
+    border-radius: 15px;
     background: black;
   }
 
+  .footer{
+    display: grid;
+    grid-template-columns: 0.3fr 0.4fr 0.3fr;
+    padding-left: 40px;
+}
+
+.f1{
+    padding-left: 50px;
+    word-spacing: 30px;
+    padding-top: 70px;
+    padding-right: 90px;
+    border-right: 1px solid lightgray;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 10px;
+}
+
+.f2{
+    padding-left: 50px;
+    padding-top: 70px;
+    padding-right: 90px;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 10px;
+}
